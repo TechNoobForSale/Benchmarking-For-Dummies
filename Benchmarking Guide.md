@@ -142,16 +142,15 @@ Probably, it did. And that's pretty neat. But you see, Benchmarking Phones is wa
     -> More data for GPU that is passing through! This is as smooth as oil! ->                                            GPU
     ___________________________________________________________________________________
 
-    This is a **good** tube. You always want to have a tube this big. Everything is smooth.
+    The one above is a **good** tube. You always want to have a tube this big. Everything is smooth.
 
 
      _________________________________________________________________________________________________
      -> Hmm this is pretty good. I'm going to be making my way to CPU since it needs me. I'm Data! ->                       CPU
-     -> Bro...I need to go through. GPU needs me |____________________________________________________                      GPU (I'm starving please help me)
+     -> Bro...I need to go through. GPU needs me |--------------------------------------------------                        GPU (I'm starving please help me)
     
-    
-   And that's a **bad** tube. It's not big enough to house both the data flows. GPU is choking, CPU is good. But the roles may be reversed (Though GPU is often the one that is greedier and needs more
-   data to flow into it).
+    And this's a **bad** tube. It's not big enough to house both the data flows. GPU is choking, CPU is good. But the roles may be reversed (Though GPU is often the one that is greedier and needs more
+    data to flow into it).
 
   What does this mean? This means that GPU will have its performance lowered because the Bandwidth can't keep it working as hard as it possibly could. What does this imply? This implies performance
   being left on the table. In these situations, making GPU more powerful through overclocking is not going to yield any performance benefit, same goes to CPU.
