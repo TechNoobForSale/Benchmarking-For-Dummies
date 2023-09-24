@@ -7,7 +7,7 @@ Probably, it did. And that's pretty neat. But you see, Benchmarking Phones is wa
 
 **Very well then, shall we begin? Allow me to introduce you to...**
 
- ## The Official TECHNOOBFORSALE Mobile Benchmarking Guide.**
+ ## The Official TECHNOOBFORSALE Mobile Benchmarking Guide.
 
 * Benchmarking is the Process through which the performance of a Device is evaluated through comparison with a baseline or a standard.
   Say that this Process evaluates devices with a score system, giving them one or more tasks to solve, using the baseline set by System A, which scored 1000 points. A certain System B runs the same 
