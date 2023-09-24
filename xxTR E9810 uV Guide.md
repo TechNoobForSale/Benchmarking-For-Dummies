@@ -52,7 +52,9 @@ MIF: Your phone will freeze, the screen will display anomalous colors, etc. MIF 
 CP: No Data and/or no Wi Fi are a sign of CP instability. Just dial back the undervolt.
 
 **5:** Go in GPU and locate a switch that allows you to either go in Global Mode or Individual Mode. Switch it so it goes in GLOBAL MODE. Afterwards, start dialing back the voltage slider by –25mV steps. After you cross –50mV total, dial back by –10mV steps. If you can’t be bothered in fine tuning it, just slam –50mV and pray it’s stable. 
+
 5a: SIGNS OF INSTABILITY + HOW TO VERIFY
+
 A strongly unstable GPU will freeze the screen (But system will still appear to be running as it should. For example, you will be able to still hear notifications or even tap on apps, but the screen will just be frozen to the last frame the GPU processed). A mild instability will manifest in the form of stutters, momentary freezes in the UI. If you’re running games, they will freeze, stutter heavily, or even show visual artifacts (flashing points on the screen, corrupted textures, etc.).
 
 ### To verify the stability of your Undervolt, you either play games or use benchmarks. I recommend benchmarks. Obtain 3DMark and once you open the app, download Slingshot Extreme and Wildlife. Run both, for one verifies OpenGL ES 3.1 and the other tests Vulkan. They are different APis and behave differently. One may be unstable when the other isn’t.
@@ -60,6 +62,7 @@ A strongly unstable GPU will freeze the screen (But system will still appear to 
 **6:** This goes for both CPU big Voltage and CPU LITTLE voltage. Once you have located the Global Voltage Control Switch for both, start dialing back by –25mV steps ONE AT A TIME. (If you do both, you won’t be able to tell which one is getting unstable, wasting your time). CPU has a ton of frequency steps, so only use Global Adjustment for it if you REALLY can’t spend some time fine tuning it. You won’t get much out of it.
 
 **6a: SIGNS OF INSTABILITY + HOW TO VERIFY**
+
 When CPU BIG is unstable, apps start crashing and you are unable to boot them back up. It may eventually freeze your phone. If the instability is very pronounced, your phone will shut down altogether. 
 
 When CPU LITTLE is unstable, the phone usually just shuts down. Little Cores are CLUSTER 0, which means they are responsible for the system’s very base stability. If Core 0 (which is a little core) miscalculates, your system will crash.
