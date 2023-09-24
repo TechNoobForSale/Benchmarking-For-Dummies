@@ -1,14 +1,20 @@
 # THE EXYNOS 9810 UNDERVOLT GUIDE by Nightshot
 
-DISCLAIMER:
-YOU ARE ABOUT TO MESS WITH SYSTEM PARAMETERS. ME AND THE XXTR TEAM, AS WELL AS ANYBODY ELSE WHO BRINGS THIS DOCUMENT TO YOUR ATTENTION ARE NOT LIABLE FOR ANY DAMAGE THAT OCCURS TO YOUR DEVICE DUE TO IMPROPER SETTINGS OR ANY OTHER REASON AT ALL.
+**ONLY FOR PEOPLE RUNNING THE LATEST VERSION OF XXTR KERNEL BY https://github.com/xxmustafacooTR**
 
-So anyway, let’s begin.
-Tired of suffering the pains of Samsung Manufacturing? Well, other than Underclocking, we got another trick up our sleeve. That’s Undervolting. …..…......
+**This is a Github Port of the Original Guide, which was written on a PDF File**
 
-Undervolting is the process of lowering your Processor’s Operating Voltage to reduce heat production and power consumption while giving up nothing at all.
+## DISCLAIMER:
+**YOU ARE ABOUT TO MESS WITH SYSTEM PARAMETERS. ME AND THE XXTR TEAM, AS WELL AS ANYBODY ELSE WHO BRINGS THIS DOCUMENT TO YOUR ATTENTION ARE NOT LIABLE FOR ANY DAMAGE THAT OCCURS TO YOUR DEVICE DUE TO IMPROPER SETTINGS OR ANY OTHER REASON AT ALL.**
 
-PREPARATION STEPS (And FUCKING FOLLOW THESE):
+So anyway, **let’s begin.**
+
+**Tired of suffering the pains of Samsung Manufacturing? Well, other than Underclocking, we got another trick up our sleeve. That’s Undervolting.**
+
+**Undervolting is the process of lowering your Processor’s Operating Voltage to reduce heat production and power consumption while giving up nothing at all.**
+
+## PREPARATION STEPS (And FUCKING FOLLOW THESE):
+
 Step 1: Obtain the latest version of xxTR Kernel. (At the time of writing, It’s xxTR Kernel V46 Beta 4). It can be downloaded from the pinned message in the xxTR Telegram Group. If you’re somehow not in the group, GET IN IT.
 Step 2: Obtain the xxTR Kernel Manager App. It also can be downloaded by the pinned message in the xxTR Telegram Group. If you try any other Kernel Manager to tune xxTR Kernel, I won’t support you in any way.
 Step 3: Have COMMON SENSE. For example, bigger number =/ Better.
@@ -17,40 +23,41 @@ Step 5: On the xxTR Kernel Manager, go in “DEVICE” and verify your ASV Table
 
 Let’s move on. And I am not responsible for any bullshittery you do with your device. If you follow the guide properly, you won’t have anything unexpected occur to you.
 
-UNDERVOLTING STRATEGIES
+## UNDERVOLTING STRATEGIES
 
 Not everyone has a lot of time on their hands, but it’s also true that many people have never touched grass in their entire life. But we also have people in the middle, so rejoice! We have strategies to accommodate every one of you. Let’s begin, shall we?
 
-1: The Global Adjustment Strategy (I won’t talk to people who use this one)
-It does exactly what you (probably) think it does. Globally adjusts the Voltage for every frequency your CPU can use, so you don’t need to think about anything other than quite literally moving one slider.
+## 1: The Global Adjustment Strategy (I won’t talk to people who use this one)
+
+It does exactly what you (probably) think it does. **Globally** adjusts the Voltage for every frequency your CPU can use, so you don’t need to think about anything other than quite literally moving one slider.
 
 Note: Global Adjustment is MANDATORY for people who look to undervolt MIF and CP too. 
 
-1: Open xxTR Kernel Manager
+**1: Open xxTR Kernel Manager
 2: Swipe from the left corner of the screen to the right (Some people actually don’t know this)
 3: Locate: GPU, POWER, then scroll down and locate CPU big Voltage and CPU LITTLE Voltage.
-4: Go in POWER and locate MIF and CP. CP is your MODEM. It makes Mobile Data and Wi Fi possible on your phone. This chip runs quite fucking hot. So, we undervolt it. Start by gradually reducing the voltage by –2. The most I recommend if you don’t care too much is –5. Same goes for MIF.
+4: Go in POWER and locate MIF and CP. CP is your MODEM. It makes Mobile Data and Wi Fi possible on your phone. This chip runs quite fucking hot. So, we undervolt it. Start by gradually reducing the voltage by –2. The most I recommend if you don’t care too much is –5. Same goes for MIF.**
 
-4a: SIGNS OF INSTABILITY: 
+**4a: SIGNS OF INSTABILITY:**
 MIF: Your phone will freeze, the screen will display anomalous colors, etc. MIF crashes are very brutal, and they will scare you. They are especially dangerous when they happen while you are producing data, since it can get corrupted. That is rare, however, don’t chicken out just yet. A force reboot is all it takes to reanimate your phone.
 
 CP: No Data and/or no Wi Fi are a sign of CP instability. Just dial back the undervolt.
 
-5: Go in GPU and locate a switch that allows you to either go in Global Mode or Individual Mode. Switch it so it goes in GLOBAL MODE. Afterwards, start dialing back the voltage slider by –25mV steps. After you cross –50mV total, dial back by –10mV steps. If you can’t be bothered in fine tuning it, just slam –50mV and pray it’s stable. 
+**5:** Go in GPU and locate a switch that allows you to either go in Global Mode or Individual Mode. Switch it so it goes in GLOBAL MODE. Afterwards, start dialing back the voltage slider by –25mV steps. After you cross –50mV total, dial back by –10mV steps. If you can’t be bothered in fine tuning it, just slam –50mV and pray it’s stable. 
 5a: SIGNS OF INSTABILITY + HOW TO VERIFY
 A strongly unstable GPU will freeze the screen (But system will still appear to be running as it should. For example, you will be able to still hear notifications or even tap on apps, but the screen will just be frozen to the last frame the GPU processed). A mild instability will manifest in the form of stutters, momentary freezes in the UI. If you’re running games, they will freeze, stutter heavily, or even show visual artifacts (flashing points on the screen, corrupted textures, etc.).
 
 To verify the stability of your Undervolt, you either play games or use benchmarks. I recommend benchmarks. Obtain 3DMark and once you open the app, download Slingshot Extreme and Wildlife. Run both, for one verifies OpenGL ES 3.1 and the other tests Vulkan. They are different APis and behave differently. One may be unstable when the other isn’t.
 
-6: This goes for both CPU big Voltage and CPU LITTLE voltage. Once you have located the Global Voltage Control Switch for both, start dialing back by –25mV steps ONE AT A TIME. (If you do both, you won’t be able to tell which one is getting unstable, wasting your time). CPU has a ton of frequency steps, so only use Global Adjustment for it if you REALLY can’t spend some time fine tuning it. You won’t get much out of it.
+**6:** This goes for both CPU big Voltage and CPU LITTLE voltage. Once you have located the Global Voltage Control Switch for both, start dialing back by –25mV steps ONE AT A TIME. (If you do both, you won’t be able to tell which one is getting unstable, wasting your time). CPU has a ton of frequency steps, so only use Global Adjustment for it if you REALLY can’t spend some time fine tuning it. You won’t get much out of it.
 
-6a: SIGNS OF INSTABILITY + HOW TO VERIFY
+**6a: SIGNS OF INSTABILITY + HOW TO VERIFY**
 When CPU BIG is unstable, apps start crashing and you are unable to boot them back up. It may eventually freeze your phone. If the instability is very pronounced, your phone will shut down altogether. 
 When CPU LITTLE is unstable, the phone usually just shuts down. Little Cores are CLUSTER 0, which means they are responsible for the system’s very base stability. If Core 0 (which is a little core) miscalculates, your system will crash.
 
 To verify the stability of the CPU, obtain Geekbench 5, which offers a good compromise between intensity of the workload and time saving. Geekbench 4 is better if you don’t have much time on your hands, and Geekbench 6 is for dumbasses. Keep in mind that the first 50% portion of Geekbench is SINGLE THREADED. This means that your Exynos 9810 will rely on BOOST frequencies, which are known to undervolt LESS, and they can and WILL limit your undervolt if you use Global. So, if your phone crashes during the Single Threaded test, your problem is LIKELY the Turbo Frequencies. If it crashes during the multi-threaded test, well your CPU can’t handle that uV.
 
-Little Tip for NOOBS: To avoid the aforementioned Single Threaded limit situation (And to potentially increase your undervolt), locate CPU HOTPLUG and shutdown both switches. This will disable the Turbo Frequencies, making your CPU solely rely on its base speed in peak operating states.
+**Little Tip for NOOBS:** To avoid the aforementioned Single Threaded limit situation (And to potentially increase your undervolt), locate CPU HOTPLUG and shutdown both switches. This will disable the Turbo Frequencies, making your CPU solely rely on its base speed in peak operating states.
 
 Congrats! You made it to the end of the Global Voltage Strategy. Now let’s move onto the Second Approach, which is the SMARTEST.
 
