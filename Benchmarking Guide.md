@@ -136,20 +136,21 @@ Probably, it did. And that's pretty neat. But you see, Benchmarking Phones is wa
     Basically, your CPU, GPU, any component, they need bandwidth to be kept well fed with data. The moment they are starved, that's when you see a bottleneck in that area. And a bottleneck is literally
     what the word sounds like. A sudden space restriction that chokes out whatever is trying to pass through.
 
-    A tube this big:
-    |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
-    -> Whoaaaa lots of data for CPU are passing through this and there's no problem ->                ->                  CPU
-    -> More data for GPU that is passing through! This is as smooth as oil! ->                        ->                  GPU
-    |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
-
-    The one above is a **good** tube. You always want to have a tube this big. Everything is smooth.
-
-
-     |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
-     -> Hmm this is pretty good. I'm going to be making my way to CPU since it needs me. I'm Data! ->                ->     CPU
-     -> Bro...I need to go through. GPU needs me -x |||||||||||||||||||||||||||||||||||||||||||||||||||||            (x)    GPU (I'm starving please help me)
+    Something that goes like this:
+ 
+    -> Data -> Data -> Data --------------------------------------------------> CPU
+    -> Data -> Data -> Data --------------------------------------------------> GPU
     
-    And this's a **bad** tube. It's not big enough to house both the data flows. GPU is choking, CPU is good. But the roles may be reversed (Though GPU is often the one that is greedier and needs more
+    
+    
+
+    The one above is a **good** flow. You always want to have a flow that big. Everything is smooth.
+
+
+     -> Data -> Data -> Data ----------------------------------------------------> CPU
+     -> Data -> Data -> Data ----------------------------------/           (x)        GPU
+    
+    And this's a **bad** flow. It's not big enough to house both the data flows. GPU is choking, CPU is good. But the roles may be reversed (Though GPU is often the one that is greedier and needs more
     data to flow into it).
 
   What does this mean? This means that GPU will have its performance lowered because the Bandwidth can't keep it working as hard as it possibly could. What does this imply? This implies performance
