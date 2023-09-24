@@ -1,4 +1,4 @@
-# Benchmarking-For-Dummies Rev 0.5
+# Benchmarking-For-Dummies Rev 0.8
 A Repository containing knowledge about the trivial "art" of Benchmarking, specifically mobile devices.
 
 ### Has Benchmarking Mobile Phones ever crossed your mind?
@@ -346,11 +346,189 @@ Probably, it did. And that's pretty neat. But you see, Benchmarking Phones is wa
      * In-Depth App Management
      * Custom Kernel
      * Custom ROM
-     * Charge Speed Override
+     * Charge Current Override
      * A Trillion Other things that aren't for Benchmarking
     
      **But fear not!** All these things that you CAN do for Benchmarking, already do all of the work!
 
-     - Coming Soon -
+     Let's start off following a Priority Order, of Course.
+
+     ## NUMBER ONE. OVERCLOCKING + Undervolting
+ 
+     ### REQUIREMENTS FOR THESE:
+     * Patience (Fine Tuning of Undervolt and Overclock takes time)
+     * Time (Look above)
+     * Common Sense (If you see a slider, DO NOT drag it all the way to the max you dumb-)
+
+     The number one way of increasing any device's speed. Overclocking is the holy grail of **free extra perforamnce**. On PCs it's pretty straight forward to accomplish, and on Mobile Devices the
+     situation is similar. However, the recklessness of phone users is, on average, way higher than that of Desktop PC owners. That's why despite how straight forward overclocking usually is, they
+     still manage to come back to you with their phone either dead or unstable.
+
+
+     **What's dangerous about overclocking isn't Overclocking itself. It's who is doing it.**
   
+     So, under this point of view, a CPU works something like this.
+
+     CPU A is running at 1000MHz, with MHz being the measurement unit for the Frequency of a Processor.
+     In order to run at 1000MHz, CPU A requires 1V. V being Volts, the measurement unit for the Voltage applied to the silicon.
+
+     Insufficient voltage will cause instability and eventually will crash the system. Excessive voltage, on the other hand, will damage a system, in time, or instantaneously, depending on how **dumb**
+     the Overclocker is.
+
+     So in order for someone to increase the clockspeed of a CPU beyond its limit, they need to first do something called "Overvolting", which is the opposite of Undervolting. Done responsibly,
+     increasing the voltage will not be inherently dangerous for the Processor. There are two danger factors for a CPU, in fact.
+
+     * Voltage
+     * Heat
     
+     Overclocking increases **Both**. But luckily, they can be kept under control, especially Heat. By raising the frequency of a CPU, you're pretty much forced to increase the voltage. There's no
+     getting around it. But the heat can be limited, either through more powerful cooling or a Thermal Throttling threshold.
+
+     First however, let's introduce you to another concept too, so I can bring ourselves to the next point to maximize the safety of Overclocking.
+
+     **Undervolting**
+
+     Undervolting is the process of lowering a component's operating voltage to reduce heat output, power consumption and, to some extent, extend the useful life of the chip. without losing performance,
+     unlike **underclocking**.
+     
+     Either way, what if I told you that 1V for **CPU A** is actually too much to sustain that 1000MHz target?
+
+     That's right. Most manufacturers ship their CPUs to you with a significant margin for undervolting. That's because they produce millions of CPUs, and they don't want to risk shipping
+     unstable chips, that's why they set a higher-than-necessary voltage for the chip.
+
+     Luckily for us, most of the time, our chip has quite some headroom for undervolting.
+
+     Let's say that this chip can actually handle the same 1000MHz while running at 0.9V instead of 1V. That's pretty good, right? Indeed! And this improvement, thanks to **undervolting**, also implies
+     something else, something pretty amazing.
+
+     **The Chip can handle a higher Frequency, while running the stock voltage (1V)**
+
+     This means that you can obtain extra performance without any risk. In fact, doing some testing, we discovered that CPU A can actually handle 1100MHz at 1V! That's a 10% increase in frequency
+     with a 0% increase in voltage compared to where we started from!
+
+     This is why as a rule of thumb, you should **always** undervolt before you overclock, so that you get to know your CPU better, and see what it's capable of.
+     
+     **If you want to go further however, you will need to start increasing the voltage gradually to make higher frequencies stable.**
+ 
+     **Undervolting should be performed with -25mV steps in order to ensure you gradually reach the point of instability. 25mV = 0,025V**
+     **Meanwhile, for Overclocking, voltage should be increased with +25mV steps in case the default Voltage for the specified Frequency is unstable, until reliable.**
+
+     Unlike PCs however, you're not free to set frequencies on Mobile. You are bound to a **Frequency Table**. Said frequency table already has default voltages assigned to it for each frequency step 
+     (This is to make Frequency scaling possible, in order to save power).  This means that you will have to test those frequencies first and evaluate if they are stable at the default voltage. 
+     Usually, anything above stock is at risk of being unstable, so you'll have to tune it as you see fit. If they are stable however, you can start undervolting the overclocked frequencies, too.
+
+     Eventually, of course, you'll hit a roadblock, as the efficiency of CPUs decreases as the frequency goes up. More effort, less gains. So it's about striking the perfect balance.
+     On phones, overclocking and undervolting are accomplished through Kernel Managers (A GUI for the User to manage Kernel parameters). To enable these features however, you require a *Custom Kernel*.
+
+     Custom Kernels are a **must have** after you root your device, since they can potentially improve performance, battery life and introduce new features, too. Stock Kernels usually are not
+     that good, and you can't do much with them other than performing **CPU/GPU Governor Modifications** and **Modifying Charge Current**.
+
+     **The Price of Overclocking is Heat.** And as you may have already seen before, our devices already overheat at stock, so what exactly is the point here, what are we going to gain?
+     That's a good question actually. This is why Benchmarking on Mobile is so hard. It's like mantaining your balance on a rope with nothingness beneath your feet. We do have some cards
+     that come to our assistance, but they depend from the Custom Kernel, whether they are available or not.
+
+     One of them is...
+
+     ### Throttling Management
+
+     Some Custom Kernels offer you the ability to tune the throttling threshold of the SoC. If increased, that will allow you to give the CPU more headroom to unleash its peak performance, before
+     it's forced to downclock itself again to prevent Overheating. **Time is Points** in this case. The longer you can sustain peak performance, the higher you will score. So, your ability to
+     **Cool the Device Down** is **Fundamental**.
+
+     * Low Ambient Temperature
+     * Peltier Cooling
+    
+       These two factors will often aid you quite a lot to obtain higher scores. However, in all fairness, they aren't enough, most of the time, specially after overclocking. So you need to be stubborn
+       and push the temperatures **as low as you possibly can** before running any benchmark. You must play your cards right.
+
+       **Another thing to keep in mind is what I call POWER CRASH**
+
+       If you ever run a stressful Benchmark, with an overclock, after confirming that the voltage is perfectly stable, and yet the phone **SUDDENLY SHUTS DOWN**, that right there my friend, that's a
+       **Power Crash**.
+
+       In simple words, your phone's CPU/GPU required way too much Voltage and Current at the same time for the battery to handle. When load is placed upon a battery, it will experience something called
+       **Vdrop**. This means that the battery's voltage will start dropping as current and voltage requested increases.
+
+       **If the Load is excessive, the battery will eventually cross the minimum voltage threshold (Usually 3.2V). If that happens, the phone will **instantly** shutdown.**
+       A CPU crash is often different from this, as it will freeze the phone first. Power Crashes however are similar to **Thermal Shutdowns**, in the sense that the phone will just go black and reboot.
+       
+       **(Thermal Shutdowns occur when despite the Thermal Throttling threshold, the phone keeps getting hotter, eventually hitting the shutdown temperature, which will crash the phone to keep it 
+       safe from damage)**.
+
+       Luckily, Power Crashes are usually only a problem for **old batteries, old phones and some lower tier phones.**
+
+       Old Batteries because they lose their ability to provide Voltage and Current.
+       Old Phones because they have weaker batteries and often fail to keep up with the demand.
+       Lower tier phones because they also have weak batteries, and sometimes, weak charging speed.
+
+       In fact this brings us to our next point. **Charging**.
+
+       Charging is a **MUST** when running benchmarks on an overclock. It helps keeping your battery **up and running**, and prevents Power Crashes. Newer phones have insanely strong charging currents,
+       so it's likely that so long as they are plugged in, they will be able to handle any overclock, till the limits of the CPU itself are reached.
+
+       Older phones however, have relatively slow charging, which can quickly be saturated by the power demand of the system, causing a shutdown regardless.
+
+       **So, for serious overclock Runs, make sure your phone is plugged in and fast charging at a Battery Percentage around 65-70% (This is the spot where the battery charges the fastest but also has
+       the highest voltage).** 
+
+       Lower means more charge current but less voltage available, and more means less charge current but more voltage available. Higher battery percentages will prevent a Power Crash, but a **Power 
+       Throttle** will be more likely (The CPU downclocking itself due to sufficient voltage but insufficient Current being delivered to it).
+
+       **To test Overclock Stability, I recommend Geekbench 5 for CPU and 3DMark Wildlife Unlimited and Slingshot Extreme Unlimited OpenGL ES 3.1 for GPU.**
+
+       Geekbench 5 tests SINGLE CORE PERFORMANCE from 0% to 50% of the Benchmark run. So if the CPU crashes within that time, it's likely that your phone's Prime Cores are the problem. If it crashes
+       later on, after 50%, other cores are the problem. Rembember that instant shutdown indicates a Power Crash (A Thermal Shutdown is quite rare unless you deliberately disabled Thermal Throttling,
+       which I absolutely don't recommend).
+
+       **Keep in mind that your phone's CPU is made by a variety of different cores. Usually a Strong Core, a bunch of Middle Cores and a bunch of power saving cores**.
+
+       Signs of **Strong and Middle Cores instability**:
+       * Apps Crashing
+       * Inability to open apps
+       * System Freeze
+      
+       Signs of **Power Saving Cores Instability**:
+       * System freeze with shutdown
+       * Sudden shutdown
+      
+       **Little Cores are, actually, the main Cores the system relies on to keep its runtime going. If Core 0 (Which is a Power Saving Core) crashes, the system will crash.**
+
+       With that being said, let's go on.
+
+       Signs of **GPU Instability**:
+       * Screen Freeze or very low refresh rate or even black screen (System still responsive)
+       * Artifacts while playing games
+       * Poor FPS
+       * Games/Benchmarks Freezing
+      
+       GPU is by far the least bothersome to deal with when it's unstable, since it hardly will crash the system, unless you messed up big time with the voltages, the frequency, or both.
+
+       ### A Very Important Detail:
+
+       We talked about this before. **Memory Bandwidth**. When overclocking GPU and CPU in a smartphone, you are likely to hit that wall harder than you would ever imagine. So your overclock might
+       not be as effective as it should be, due to Bandwidth bottlenecks. GPU is mainly affected by this, since it's the greedier component when it comes down to bandwidth requirements.
+
+       **Signs of Memory Bandwidth Bottlenecks:**
+       * Little to no performance Gain in games
+       * Poor GPU performance increase in Benchmarks/Games
+       * Stutters, Late Texture Loading (Visible in games such as Genshin Impact)
+       * **Performing the same GPU Benchmark at a lower resolution with and without overclock shows that the difference between Stock and OC is even smaller**
+      
+       The only fix for limited Memory Bandwidth is overclocking, but unfortunately, on most devices, RAM Overclocking is not something that Developers look a lot into, and if they do, it's really
+       hard to mess with, which is very unfortunate.
+
+       **Memory Bandwidth is so important that if you had the chance to overclock RAM alone, your device's CPU and GPU performance would VERY likely go up, even without touching their frequencies at 
+       all.**
+
+       So if you accomplish an impressive overclock for GPU (Rarely does Bandwidth cripple CPU) but the results are disappointing, be quick to blame Memory Bandwidth. Even I would've never imagined
+       it to be the problem, yet it's such a no brainer if you think about it. Integrated Graphics. They NEED bandwidth, and if they have it, they become way faster.
+
+       **Things obvious to this extent, that are right in front of our eyes, yet anyone hardly even notices.**
+
+       **Well I did notice, and now I'm telling it to you, and I hope it will help you in whatever way.**
+
+      #### This Guide Will be Updated as Questions are asked and/or I remember more things that are worth mentioning.
+
+     - Last Revision: 0.8 (24/09/2023 16:27:05)
+      
+         
