@@ -46,6 +46,7 @@ It does exactly what you (probably) think it does. **Globally** adjusts the Volt
 **4:** Go in POWER and locate MIF and CP. CP is your MODEM. It makes Mobile Data and Wi Fi possible on your phone. This chip runs quite fucking hot. So, we undervolt it. Start by gradually reducing the voltage by –2. The most I recommend if you don’t care too much is –5. Same goes for MIF.
 
 **4a: SIGNS OF INSTABILITY:**
+
 MIF: Your phone will freeze, the screen will display anomalous colors, etc. MIF crashes are very brutal, and they will scare you. They are especially dangerous when they happen while you are producing data, since it can get corrupted. That is rare, however, don’t chicken out just yet. A force reboot is all it takes to reanimate your phone.
 
 CP: No Data and/or no Wi Fi are a sign of CP instability. Just dial back the undervolt.
@@ -60,6 +61,7 @@ A strongly unstable GPU will freeze the screen (But system will still appear to 
 
 **6a: SIGNS OF INSTABILITY + HOW TO VERIFY**
 When CPU BIG is unstable, apps start crashing and you are unable to boot them back up. It may eventually freeze your phone. If the instability is very pronounced, your phone will shut down altogether. 
+
 When CPU LITTLE is unstable, the phone usually just shuts down. Little Cores are CLUSTER 0, which means they are responsible for the system’s very base stability. If Core 0 (which is a little core) miscalculates, your system will crash.
 
 To verify the stability of the CPU, obtain Geekbench 5, which offers a good compromise between intensity of the workload and time saving. Geekbench 4 is better if you don’t have much time on your hands, and Geekbench 6 is for dumbasses. Keep in mind that the first 50% portion of Geekbench is SINGLE THREADED. This means that your Exynos 9810 will rely on BOOST frequencies, which are known to undervolt LESS, and they can and WILL limit your undervolt if you use Global. So, if your phone crashes during the Single Threaded test, your problem is LIKELY the Turbo Frequencies. If it crashes during the multi-threaded test, well your CPU can’t handle that uV.
