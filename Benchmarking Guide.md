@@ -139,6 +139,7 @@ Probably, it did. And that's pretty neat. But you see, Benchmarking Phones is wa
     Something that goes like this:
  
     -> Data -> Data -> Data --------------------------------------------------> CPU
+    
     -> Data -> Data -> Data --------------------------------------------------> GPU
     
     
@@ -148,6 +149,7 @@ Probably, it did. And that's pretty neat. But you see, Benchmarking Phones is wa
 
 
      -> Data -> Data -> Data ----------------------------------------------------> CPU
+    
      -> Data -> Data -> Data ----------------------------------/           (x)        GPU
     
     And this's a **bad** flow. It's not big enough to house both the data flows. GPU is choking, CPU is good. But the roles may be reversed (Though GPU is often the one that is greedier and needs more
