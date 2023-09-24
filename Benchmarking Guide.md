@@ -307,6 +307,8 @@ Probably, it did. And that's pretty neat. But you see, Benchmarking Phones is wa
      We disable Google Apps since they have a really bad habit of running in the background and stealing **a lot** of CPU cycles. Meanwhile we disable Bluetooth, Mobile Data etc to drag down to a
      minimum the heat sources inside your phone. All we want to run is your CPU and/or GPU. Bluetooth also steals some CPU cycles, which nobody likes when benchmarking. So disconnect your headphones 
      bro.
+ 
+     iOS users can't do most of that, but you guys can still enable Plane Mode, Disable Bluetooth and Mobile data, GPS and also disable Background App Refreshing in the settings.
 
      **Important for some Users:** Stop using LSpeed and FDE.AI or any App that claims to improve your device's performance through miraculous means. They are making it worse.
      
@@ -331,6 +333,24 @@ Probably, it did. And that's pretty neat. But you see, Benchmarking Phones is wa
 
      # THE ROOT USER TECHNOOBFORSALE BENCHMARKING GUIDE!
 
-     
+     **Man. Root is amazing. Too bad that OEMs are pushing hard to make it completely worthless, but they still weren't successful!**
+
+     With root, you can do a lot more things than a normal user. Things that will allow you to gain an "unfair" edge when benchmarking. But does it really matter? All we see is **Scores**.
+
+     **Things you can do with Root for Benchmarking that you can't do on Vanilla:**
+
+     * Overclocking
+     * Undervolting
+     * Throttling Management
+     * CPU/GPU Governor Modifications
+     * In-Depth App Management
+     * Custom Kernel
+     * Custom ROM
+     * Charge Speed Override
+     * A Trillion Other things that aren't for Benchmarking
+    
+     **But fear not!** All these things that you CAN do for Benchmarking, already do all of the work!
+
+     - Coming Soon -
   
     
