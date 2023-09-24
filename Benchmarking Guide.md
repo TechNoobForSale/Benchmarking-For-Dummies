@@ -5,7 +5,7 @@ A Repository containing knowledge about the trivial "art" of Benchmarking, speci
 
 Probably, it did. And that's pretty neat. But you see, Benchmarking Phones is way more tricky than it would normally be on a Desktop PC. You have to keep in mind many, MANY variables that OEMs usually lead you to believe to be completely irrelevant. But that's wrong. And in this guide I will show you why, and I will make you a better Benchmarker in the process. 
 
-**Very well then, shall we begin? Allow me to introduce you to...
+**Very well then, shall we begin? Allow me to introduce you to...**
 
  ## The Official TECHNOOBFORSALE Mobile Benchmarking Guide.**
 
