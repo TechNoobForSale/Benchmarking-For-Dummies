@@ -136,7 +136,7 @@ Probably, it did. And that's pretty neat. But you see, Benchmarking Phones is wa
     Basically, your CPU, GPU, any component, they need bandwidth to be kept well fed with data. The moment they are starved, that's when you see a bottleneck in that area. And a bottleneck is literally
     what the word sounds like. A sudden space restriction that chokes out whatever is trying to pass through.
 
-    Something that goes like this:
+    Something that goes like this, without UMA:
  
     -> Data -> Data -> Data --------------------------------------------------> CPU
     
@@ -146,14 +146,13 @@ Probably, it did. And that's pretty neat. But you see, Benchmarking Phones is wa
     
 
     The one above is a **good** flow. You always want to have a flow that big. Everything is smooth.
-
-
-     -> Data -> Data -> Data ----------------------------------------------------> CPU
     
-     -> Data -> Data -> Data ----------------------------------/           (x)        GPU
+     -> Data -> Data -> Data -------------------------------------------------> CPU   -(x) GPU
+ 
     
-    And this's a **bad** flow. It's not big enough to house both the data flows. GPU is choking, CPU is good. But the roles may be reversed (Though GPU is often the one that is greedier and needs more
-    data to flow into it).
+    
+    And this's a **bad** flow, a small UMA. It's not big enough to house both the data flows. GPU is choking, CPU is good. But the roles may be reversed (Though GPU is often the one that is greedier 
+    and needs more data to flow into it).
 
   What does this mean? This means that GPU will have its performance lowered because the Bandwidth can't keep it working as hard as it possibly could. What does this imply? This implies performance
   being left on the table. In these situations, making GPU more powerful through overclocking is not going to yield any performance benefit, same goes to CPU.
