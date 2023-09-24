@@ -1,4 +1,4 @@
-# Benchmarking-For-Dummies Rev 0.1
+# Benchmarking-For-Dummies Rev 0.5
 A Repository containing knowledge about the trivial "art" of Benchmarking, specifically mobile devices.
 
 ### Has Benchmarking Mobile Phones ever crossed your mind?
@@ -29,7 +29,7 @@ Probably, it did. And that's pretty neat. But you see, Benchmarking Phones is wa
     Let's Address each of these points one at a time, before we get down to the actual Benchmarking Tools you have to obtain to properly Benchmark. We will start following a Priority Order. The most 
     frustratingly important things will come first.
 
-    **NUMBER ONE!**
+    ## NUMBER ONE!
     Thermal Throttling + Cooling Solution
 
     Man. You heard of this already. Who didn't? In order to keep itself safe, any piece of silicon is instructed by software and/or hardware to obey to a set Maximum Temperature, which as you may know, 
@@ -83,7 +83,7 @@ Probably, it did. And that's pretty neat. But you see, Benchmarking Phones is wa
     drop. If the voltage drops too low, components will starve from voltage, crashing the device. Alternatively, if there's an overwhelmingly high current requirement but the voltage is high enough,
     the phone will power throttle, and the performance will be crippled, but at least the device won't shutdown).
 
-    **NUMBER TWO!**
+    ## NUMBER TWO!
     Background Processes
 
     Well you see, this normally wouldn't be a problem. This actually hardly is ever a problem on Desktop PCs, since people are sane enough to close apps that are running there. But you see, Google likes
@@ -108,7 +108,7 @@ Probably, it did. And that's pretty neat. But you see, Benchmarking Phones is wa
     Usually a fresh reboot and setting of "No Background Apps" In developer options should do it for 90% of cases. If your phone is bloated as hell with useless stuff, for the love of God, format it.
     You won't be getting good results like that, ever.
 
-    **NUMBER THREE!**
+    ### NUMBER THREE!
     System Bandwidth + Load Thresholds + Frequency Scaling
 
     **Wow talk about a bundle of factors!**
@@ -136,7 +136,7 @@ Probably, it did. And that's pretty neat. But you see, Benchmarking Phones is wa
     Basically, your CPU, GPU, any component, they need bandwidth to be kept well fed with data. The moment they are starved, that's when you see a bottleneck in that area. And a bottleneck is literally
     what the word sounds like. A sudden space restriction that chokes out whatever is trying to pass through.
 
-    Something that goes like this, without UMA:
+    Something that goes like this, without UMA (Unified Memory Architecture):
  
     -> Data -> Data -> Data --------------------------------------------------> CPU
     
@@ -145,7 +145,7 @@ Probably, it did. And that's pretty neat. But you see, Benchmarking Phones is wa
     
     
 
-    The one above is a **good** flow. You always want to have a flow that big. Everything is smooth.
+    The one above is a **good** flow. You always want to have a flow that big. Everything is smooth and it goes where it should.
     
      -> Data -> Data -> Data -------------------------------------------------> CPU   -(x) GPU
  
@@ -175,8 +175,8 @@ Probably, it did. And that's pretty neat. But you see, Benchmarking Phones is wa
   **Often however, these foolish OEMs are way too conservative, and they will opt to keep the SoC at low frequencies for as long as possible, even if it means crippling your performance (Oneplus,Samsung
   I'M LOOKING AT YOU)***
 
-  This will not necessarily harm your benchmark scores, since they will generally push your SoC to the point where it's forced to run faster. But it can and **WILL harm** your gaming performance and 
-  real life usage experience.
+  This will not necessarily harm your Benchmark scores, since those apps will generally push your SoC to the point where it's forced to run faster. But it can and **WILL harm** your gaming performance 
+  and real life usage experience.
 
   What can you do about it?
   **Nothing. Without root you can't do much about it at all. I feel even more sorry for Apple Users, though they usually don't have this problem, since Apple is less dumb than Android Manufacturers
@@ -193,7 +193,7 @@ Probably, it did. And that's pretty neat. But you see, Benchmarking Phones is wa
   this guide will include headers for **Root Users**.
 
 
-  **Number Four!**
+  ### Number Four!
   Kernel Performance
 
   I will try to keep it simple, since this isn't really my area of expertise, but I ran into problems with this before, several times, and it's something even I can't solve. It's up to the **Almighty
@@ -222,7 +222,8 @@ Probably, it did. And that's pretty neat. But you see, Benchmarking Phones is wa
 
   The Holy Grail of Mobile Benchmarking...right? Right?
   Well, **kinda**. It's good if you got some time to waste and want some arbitrary results. This Benchmark likes to disagree with other (Often more reliable) Benchmarks, but it's the popular Kid, and
-  you can't really show up without him at a party, otherwise nobody will care about you. 5/10. Only use this if you have time to waste and you're bored.
+  you can't really show up without him at the party, otherwise nobody will care about you. 5/10. Only use this if you have time to waste and you're bored (or you want to prove that you're faster
+  to someone who knows nothing about Benchmarks).
 
   * **3DMARK**
 
@@ -255,6 +256,7 @@ Probably, it did. And that's pretty neat. But you see, Benchmarking Phones is wa
 
      Another Cross Platform GPU Benchmarking Application. Way less known than the competitors, but it's still good enough, specially if you're low on time. Run "Official Offscreen Medium" to obtain 
      results that are comparable cross-platform. This Benchmark App even offers the chance to make Custom Runs, unlike Mobile 3DMark.
+     This app will also ask you to download either ASTC or ETC2 Texture Compression. Use ASTC. Phones that don't support ASTC usually can't even run the Benchmark anyway. Anything newer than 2015 goes.
 
    * **Geekbench 6.2.0+**
 
@@ -269,7 +271,7 @@ Probably, it did. And that's pretty neat. But you see, Benchmarking Phones is wa
 
    * **Geekbench 4.4.0+**
  
-     As someone I used to know said:
+     As someone I used to know always said:
  
      > Old is Gold
 
@@ -277,13 +279,32 @@ Probably, it did. And that's pretty neat. But you see, Benchmarking Phones is wa
      run times, Throttling will be less of an issue as opposed to Geekbench 5 and you will be able to get more accurate results.
 
      **Note for Geekbench Users:** Don't use the "COMPUTE" Benchmark. It's dumb, inaccurate, useless. Rely on the previous GPU Benchmarks I talked about.
+     **Benchmark Note:** This is a guide for Peak Performance Evaluation Benchmarking. Sustained Performance Evaluation also exists, as well as Stress Testing, but we will not talk about those in this
+     guide. We are just looking to break records. You could use some of the Tweaks we apply before benchmarking in order to extend your battery life or slightly increase performance (Check **Very 
+     Important** Section below).
 
      # Strategies for improving your benchmark scores
 
-     * Purchase a **Peltier Cooler** (Those are really a good addition to your arsenal. They can benefit you in so many ways. Too bad they require an external power source)
+     * Purchase a **Peltier Cooler** (Those are **must-have** in your arsenal. They can benefit you in so many ways. Too bad they require an external power source).
+       
      * **Don't run Benchmarks repeatedly**. Your phone is passively cooled, even with Peltier. It will take time to return to a neutral temperature situation. Be mindful.
+       
      * Use light weight monitoring apps such as CPU Float to study the behaviour of the phone's CPU/GPU under stress, and take note of the temperature. This will help you tailor your strategy
-       to your phone's behaviour, in order to optimize the scores.
+       to your phone's behaviour, in order to optimize the scores. You can even use CPUFloat to measure the current loss (Which is the Power Draw of the phone, and it must be converted in W to be
+       useful). Another great app for this purpose is Devcheck. It's heavier on the system, but it's great to ACCURATELY analyse temperatures and a bunch of other things (CPUFloat is VERY OFTEN 
+       inaccurate in that regard). Devcheck is best if used with root, but even non-root users will find use in it. It's better than CPU-Z.
+ 
+       **Note:** Devcheck's Monitoring overlay is reserved to Devcheck Pro Users. I don't really encourage piracy, but I know what you're thinking, and I know you probably know what I'm thinking.
+ 
+     ## (VERY IMPORTANT)
+     Before running the Benchmark**, disable Mobile Data, disable Bluetooth, disable GPS, disable Account Sync in the settings and still in the settings, head over to app settings and disable **Google 
+     and Google Play Store.** If you have more Google Apps installed that are not fundamental to the system's functioning, disable them too. You can re-enable them after you're done benchmarking.
+ 
+     **Also turn on Plane Mode, and afterwards, re-enable Wi-Fi (Yes, you can do that)**.
+ 
+     We disable Google Apps since they have a really bad habit of running in the background and stealing **a lot** of CPU cycles. Meanwhile we disable Bluetooth, Mobile Data etc to drag down to a
+     minimum the heat sources inside your phone. All we want to run is your CPU and/or GPU. Bluetooth also steals some CPU cycles, which nobody likes when benchmarking. So disconnect your headphones 
+     bro.
 
      **Important for some Users:** Stop using LSpeed and FDE.AI or any App that claims to improve your device's performance through miraculous means. They are making it worse.
      
@@ -292,10 +313,22 @@ Probably, it did. And that's pretty neat. But you see, Benchmarking Phones is wa
      **Important for Many Users 2:** Most of the time, manufacturers update GPU drivers through OS updates. GPU drivers can bring better benchmark scores by improving performance. This occurrence is
      rare, though. So make sure to update if you get the chance. Latest **isn't always better**, but sometimes, it is. You have to look into it yourself.
  
+     **Important For Many Users 3:** Modern Qualcomm devices seem to hide CPU Frequency Throttling even when the SoC is experiencing it, so the user won't be able to know if and when the phone
+     is thermal throttling and/or power throttling.
+ 
      *And this is it for the Regular User side of this Guide! It will be expanded with time, of course, or if I remember anything I might have forgot to add.*
 
-     **Root Users Guide Expansion Coming soon.**
      
      **If People ask Questions I can answer, I will add the reply to the guide so it can all be even more exhaustive.**
+
+
+     **Well then, time to hop onto the ROOT USERS matter. You guys can do FAAAR more.**
+
+
+     So, I welcome you to the next Big Thing...
+
+     # THE ROOT USER TECHNOOBFORSALE BENCHMARKING GUIDE!
+
+     
   
     
