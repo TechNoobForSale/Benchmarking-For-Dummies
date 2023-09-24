@@ -1,4 +1,4 @@
-# Benchmarking-For-Dummies Rev 0
+# Benchmarking-For-Dummies Rev 0.1
 A Repository containing knowledge about the trivial "art" of Benchmarking, specifically mobile devices.
 
 ### Has Benchmarking Mobile Phones ever crossed your mind?
@@ -137,17 +137,17 @@ Probably, it did. And that's pretty neat. But you see, Benchmarking Phones is wa
     what the word sounds like. A sudden space restriction that chokes out whatever is trying to pass through.
 
     A tube this big:
-    -------------------------------------------------------------------------------
+    ___________________________________________________________________________________
     -> Whoaaaa lots of data for CPU are passing through this and there's no problem ->                                    CPU
     -> More data for GPU that is passing through! This is as smooth as oil! ->                                            GPU
-    -------------------------------------------------------------------------------
+    ___________________________________________________________________________________
 
     This is a **good** tube. You always want to have a tube this big. Everything is smooth.
 
 
-      -----------------------------------------------------------------------------------------------
+     _________________________________________________________________________________________________
      -> Hmm this is pretty good. I'm going to be making my way to CPU since it needs me. I'm Data! ->                       CPU
-     -> Bro...I need to go through. GPU needs me |-------------------------------------------------                         GPU (I'm starving please help me)
+     -> Bro...I need to go through. GPU needs me |____________________________________________________                      GPU (I'm starving please help me)
     
     
    And that's a **bad** tube. It's not big enough to house both the data flows. GPU is choking, CPU is good. But the roles may be reversed (Though GPU is often the one that is greedier and needs more
