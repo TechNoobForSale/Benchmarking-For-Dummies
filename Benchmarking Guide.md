@@ -286,13 +286,16 @@ Probably, it did. And that's pretty neat. But you see, Benchmarking Phones is wa
        to your phone's behaviour, in order to optimize the scores.
 
      **Important for some Users:** Stop using LSpeed and FDE.AI or any App that claims to improve your device's performance through miraculous means. They are making it worse.
+     
      **Important for Many Users:** Updating your OS is not fundamental. An older patch note is not the end of the world. Anonymous is not after you. Relax.
+     
      **Important for Many Users 2:** Most of the time, manufacturers update GPU drivers through OS updates. GPU drivers can bring better benchmark scores by improving performance. This occurrence is
      rare, though. So make sure to update if you get the chance. Latest **isn't always better**, but sometimes, it is. You have to look into it yourself.
  
      *And this is it for the Regular User side of this Guide! It will be expanded with time, of course, or if I remember anything I might have forgot to add.*
 
      **Root Users Guide Expansion Coming soon.**
+     
      **If People ask Questions I can answer, I will add the reply to the guide so it can all be even more exhaustive.**
   
     
