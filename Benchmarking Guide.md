@@ -55,7 +55,7 @@ Probably, it did. And that's pretty neat. But you see, Benchmarking Phones is wa
     I want you to **Forget** all that you've been told about it.
 
     Snapdragon 8 Gen 2 and pals, they all overheat. And they overheat badly. OEMs just got good at not letting you know. You might know Snapdragon 810 
-    and 8 Gen 1 for being infamous power hogs that burn your hands, and don't get me wrong, their silicon is actually bad, but they aren't bad chips on paper. They were simply harder to **manage**. 
+    and 8 Gen 1 for being infamous power hogs that burn your hands, and don't get me wrong, their silicon is actually bad, but they aren't bad chips on paper. They were simply harder to **manage**, 
     which  meant OEMs had to spend more for cooling (Spoiler alert: They weren't willing to do so), and as we all know, that didn't work out. 8 Gen 1 and Co were shipped with underwhelming cooling 
     solutions that helped people get their hands acquainted to the feeling of a Samsung Galaxy Note7 without risking to lose their life in the process.
 
