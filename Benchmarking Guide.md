@@ -37,7 +37,7 @@ Probably, it did. And that's pretty neat. But you see, Benchmarking Phones is wa
     Man. You heard of this already. Who didn't? In order to keep itself safe, any piece of silicon is instructed by software and/or hardware to obey to a set Maximum Temperature, which as you may know, 
     is defined by °C or °F or K or whatever the hell you use, doesn't matter. Too hot, BAD. Too cold, Ehhhhh it depends (More on this later).
 
-    This is usually not a problem for Desktop Devies. Big, Strong, Mighty active cooling systems are ready to dispatch the heat produced by your CPU/GPU/RAM and others with incredible speed and 
+    This is usually not a problem for Desktop Devices. Big, Strong, Mighty active cooling systems are ready to dispatch the heat produced by your CPU/GPU/RAM and others with incredible speed and 
     efficiency, so long as it's properly maintained.
 
     Well, most Mobile Devices don't really have access to that. Those little Systems on a Chip are forced to be sandwiched in minuscule Passive Cooling Systems, that nowadays often rely on the "Vapor 
