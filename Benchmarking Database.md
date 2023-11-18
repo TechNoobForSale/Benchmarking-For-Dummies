@@ -138,36 +138,80 @@ CPU Test: 3,96FPS
 
 ### Stats: CPU: 2643MHz|GPU: 630MHz
 
-Total Score: 1,618
+Total Score: 1,774
 
-GPU SCORE: 1,770
+GPU SCORE: 1,888
 
-GPU Test 1: 8,32FPS
+GPU Test 1: 9,16FPS
 
-GPU Test 2: 7,16FPS
+GPU Test 2: 7,44FPS
 
-CPU SCORE: 1,246
+CPU SCORE: 1,467
 
-CPU Test: 3,96FPS
+CPU Test: 4,66FPS
 
 ------------------------------------------------
-Benchmark: Geekbench 4
-Stats: CPU: 2094MHz|GPU: 625MHz
+### Benchmark: Geekbench 4
+
+### Stats: CPU: 2094MHz (2194MHz Single Core Boost)|GPU: 625MHz
+
 Single Core: 1,396
+
 Multi Core: 2,322
 
-Single Stats:
+### Single Stats:
+
 Crypto: 99
+
 Integer: 1705
+
 Floating Point: 1142
+
 Memory: 1406
 
-Multi Stats:
+### Multi Stats:
+
 Crypto: 196
+
 Integer: 3087
+
 Floating Point: 2144
+
 Memory: 1398
+
 -------------------------------------------------
+### Benchmark: Geekbench 4
+
+### Stats: CPU: 2643MHz (2764MHz Single Core Boost)|GPU: 625MHz
+
+Single Core: 1,705
+
+Multi Core: 2,809
+
+### Single Stats:
+
+Crypto: 124
+
+Integer: 2118
+
+Floating Point: 1407
+
+Memory: 1618
+
+### Multi Stats:
+
+Crypto: 241
+
+Integer: 3702
+
+Floating Point: 2630
+
+Memory: 1711
+
+-----------------------------------------------
+### Benchmark: Geekbench 5
+
+### Stats: CPU: 2643MHz (2764MHz Single Core Boost)|GPU: 625MHz
 
 
 ------------------------------------------------
