@@ -1048,4 +1048,6 @@ Stats: GPU: 2100MHz
 Score: 22,054
 FPS: 132,06FPS
 --------------------------------------------------------------------
-DATA LOG END-
+DATA LOG END
+
+NOTE: FOR NOW DATA WILL NOT BE ORDERED. THIS IS JUST A ROUGH DRAFT OF THE FINAL DOCUMENT.
