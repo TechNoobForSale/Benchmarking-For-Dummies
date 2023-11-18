@@ -47,11 +47,17 @@
 Benchmark: Icestorm Unlimited
 
 Stats: Core 2 Duo T6570: 2094MHz|GPU: 450MHz
+
 Total Score: 17,321
+
 GPU SCORE: 18,073
+
 GPU Test 1: 125,82FPS
+
 GPU Test 2: 57,13FPS
+
 CPU SCORE: 15,122
+
 CPU Test: 48,01FPS
 ------------------------------------------------
 (Full Power, GPU Overclock):
