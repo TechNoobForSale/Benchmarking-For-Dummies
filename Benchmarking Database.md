@@ -58,7 +58,9 @@ GPU Test 2: 57,13FPS
 CPU SCORE: 15,122
 
 CPU Test: 48,01FPS
+
 ------------------------------------------------
+
 (Full Power, GPU Overclock):
 Benchmark: Icestorm Unlimited
 Stats: Core 2 Duo T6570 @2094MHz|GPU: 625MHz
