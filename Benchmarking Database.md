@@ -76,7 +76,7 @@ GPU Test 1: 170,07FPS
 
 GPU Test 2: 75,05FPS
 
-CPU SCORE: 15,414FPS
+CPU SCORE: 15,414
 
 CPU Test: 48,94FPS
 
@@ -87,36 +87,69 @@ CPU Test: 48,94FPS
 
 ### Stats: Core 2 Duo T6570 @2643MHz|GPU: 630MHz
 
-Total Score: 21,326
+Total Score: 22,811
 
-GPU SCORE: 23,952
+GPU SCORE: 24,677
 
-GPU Test 1: 170,07FPS
+GPU Test 1: 175,11FPS
 
-GPU Test 2: 75,05FPS
+GPU Test 2: 77,34FPS
 
-CPU SCORE: 15,414FPS
+CPU SCORE: 18,040
 
-CPU Test: 48,94FPS
+CPU Test: 57,27FPS
 
 ------------------------------------------------
-Benchmark: Cloud Gate 
-Stats: CPU: 2094MHz|GPU: 450MHz
+### Benchmark: Cloud Gate 
+
+### Stats: CPU: 2094MHz|GPU: 450MHz
+
 Total Score: 1,287
+
 GPU SCORE: 1,297
+
 GPU Test 1: 6,01FPS
+
 GPU Test 2: 5,31FPS
+
 CPU SCORE: 1,254
+
 CPU Test: 3,98FPS
+
 ------------------------------------------------
-Benchmark: Cloud Gate
-Stats: CPU: 2094MHz|GPU: 625MHz
+### Benchmark: Cloud Gate
+
+### Stats: CPU: 2094MHz|GPU: 625MHz
+
 Total Score: 1,618
+
 GPU SCORE: 1,770
+
 GPU Test 1: 8,32FPS
+
 GPU Test 2: 7,16FPS
+
 CPU SCORE: 1,246
+
 CPU Test: 3,96FPS
+
+------------------------------------------------
+### Benchmark: Cloud Gate
+
+### Stats: CPU: 2643MHz|GPU: 630MHz
+
+Total Score: 1,618
+
+GPU SCORE: 1,770
+
+GPU Test 1: 8,32FPS
+
+GPU Test 2: 7,16FPS
+
+CPU SCORE: 1,246
+
+CPU Test: 3,96FPS
+
 ------------------------------------------------
 Benchmark: Geekbench 4
 Stats: CPU: 2094MHz|GPU: 625MHz
