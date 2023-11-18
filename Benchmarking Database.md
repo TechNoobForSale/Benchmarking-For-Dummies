@@ -234,7 +234,7 @@ Integer: 679
 Floating Point: 654
 
 -----------------------------------------------
-### Benchmark: Geekbench 6
+### Benchmark: Geekbench 6.2.1
 
 ### Stats: CPU: 2643MHz (2764MHz Single Core Boost)|GPU: 625MHz
 
