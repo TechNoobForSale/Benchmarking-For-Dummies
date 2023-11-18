@@ -213,6 +213,30 @@ Memory: 1711
 
 ### Stats: CPU: 2643MHz (2764MHz Single Core Boost)|GPU: 625MHz
 
+Single Core: 371
+
+Multi Core: 643
+
+### Single Stats:
+
+Crypto: 52
+
+Integer: 405
+
+Floating Point: 351
+
+### Multi Stats:
+
+Crypto: 100
+
+Integer: 679
+
+Floating Point: 654
+
+-----------------------------------------------
+### Benchmark: Geekbench 6
+
+### Stats: CPU: 2643MHz (2764MHz Single Core Boost)|GPU: 625MHz
 
 ------------------------------------------------
 # Samsung Galaxy S8's Data                         <--
