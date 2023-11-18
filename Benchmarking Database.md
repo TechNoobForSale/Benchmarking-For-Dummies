@@ -1,6 +1,7 @@
 # This File is a Database of the benchmarks from all devices I currently own, as well as my own remarks about each result. 
 ## You may use this for comparison purposes. It will be updated more and more with time. A variety of benchmarks will be included. 
 
+### Note for dummies: Most of phone benchmarks you find on the web are THROTTLED results. Consider carefully.
 
 ### Applications include but are not limited to: 3DMark, Geekbench 4, GFXBench 
 
@@ -61,25 +62,43 @@ CPU Test: 48,01FPS
 
 ------------------------------------------------
 
-(Full Power, GPU Overclock):
-Benchmark: Icestorm Unlimited
-Stats: Core 2 Duo T6570 @2094MHz|GPU: 625MHz
+### (Full Power, GPU Overclock):
+
+### Benchmark: Icestorm Unlimited
+
+### Stats: Core 2 Duo T6570 @2094MHz|GPU: 625MHz
+
 Total Score: 21,326
+
 GPU SCORE: 23,952
+
 GPU Test 1: 170,07FPS
+
 GPU Test 2: 75,05FPS
+
 CPU SCORE: 15,414FPS
+
 CPU Test: 48,94FPS
+
 ------------------------------------------------
-(Full Power,CPU, GPU Overclock):
-Benchmark: Icestorm Unlimited
-Stats: Core 2 Duo T6570 @2802MHz|GPU: 625MHz
+### (Full Power, CPU, GPU Overclock):
+
+### Benchmark: Icestorm Unlimited
+
+### Stats: Core 2 Duo T6570 @2643MHz|GPU: 630MHz
+
 Total Score: 21,326
+
 GPU SCORE: 23,952
+
 GPU Test 1: 170,07FPS
+
 GPU Test 2: 75,05FPS
+
 CPU SCORE: 15,414FPS
+
 CPU Test: 48,94FPS
+
 ------------------------------------------------
 Benchmark: Cloud Gate 
 Stats: CPU: 2094MHz|GPU: 450MHz
