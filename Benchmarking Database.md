@@ -43,10 +43,9 @@
 -----------------------------------------------
 # HP Probook 4310's Data:                         <--
 -----------------------------------------------
-(Under Load)
-Benchmark: Icestorm Unlimited
+### (Under Load) Benchmark: Icestorm Unlimited
 
-Stats: Core 2 Duo T6570: 2094MHz|GPU: 450MHz
+### nStats: Core 2 Duo T6570: 2094MHz|GPU: 450MHz
 
 Total Score: 17,321
 
