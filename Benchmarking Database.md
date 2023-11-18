@@ -12,20 +12,31 @@
 ## NOTE: These benchmarks are performed with high levels of attention to prevent overheating or background apps interference so they are to be taken as BASELINES for comparisons.
 
 # Devices Involved:
-### Samsung Galaxy S8 (E8895, 4GB RAM), Done--------------------(Further Testing Planned|2704MHz,839MHz)
-### Samsung Galaxy Note9 (E9810, 8GB RAM), Done----------------------------
-### Samsung Galaxy S5 (MSM8974AC, 2GB RAM), Done-----------------(Further Testing Planned|2899MHz)
-### Samsung Galaxy Tab 2 8'0 (OMAP 4430, 1GB RAM), Done-----------------------
-### Samsung Galaxy Tab E 9'6 (Spreadtrum SC7730SE 4xCortex A7 @1300MHz, Mali 400 MP2 512MHz, 1.5GB RAM), Done--------------
-### HMD Global Nokia 8 (MSM8998, 4GB RAM), Done----------------------------------------
-### Huawei P8 Lite (2015) (K620, 2GB RAM), Done-----------------------------
-### Samsung Galaxy S3 (E4412, 1GB RAM), Done--------------------------------
-### Asus Vivobook 2013 (i7 4500U + GT 740m, 8GB RAM), Done---------------(Further Testing Planned|Better Score)
-### Asus ROG Strix G15 (R9 5900HX + RTX 3060M, 32GB RAM), Done------------(Further Testing Planned|uV)
-### HP Probook 4310s (Core 2 Duo T6570 + ATi Mobility Radeon 4330, 4GB RAM), Done------------
-### iPad Pro 2020 11' (A12Z, 6GB RAM), Done--------------------------------
-### Realme GT Neo 2 (Snapdragon 870, 8GB RAM), Done------------------------- (External Device, may lack data)
-### Desktop PC (i5 12600K + RTX 3060 Ti, 16GB RAM), Done ------------------------ (External Device, may lack data)
+### Samsung Galaxy S8 (E8895, 4GB RAM) (Further Testing Planned|2704MHz,839MHz)
+
+### Samsung Galaxy Note9 (E9810, 8GB RAM)
+
+### Samsung Galaxy S5 (MSM8974AC, 2GB RAM) (Further Testing Planned|2899MHz)
+
+### Samsung Galaxy Tab 2 8'0 (OMAP 4430, 1GB RAM)
+
+### Samsung Galaxy Tab E 9'6 (Spreadtrum SC7730SE 4xCortex A7 @1300MHz, Mali 400 MP2 512MHz, 1.5GB RAM)
+
+### HMD Global Nokia 8 (MSM8998, 4GB RAM)
+
+### Huawei P8 Lite (2015) (K620, 2GB RAM)
+
+### Samsung Galaxy S3 (E4412, 1GB RAM)
+
+### Asus Vivobook 2013 (i7 4500U + GT 740m, 8GB RAM) (Further Testing Planned|Better Score)
+
+### Asus ROG Strix G15 (R9 5900HX + RTX 3060M, 32GB RAM) (Further Testing Planned|uV)
+### HP Probook 4310s (Core 2 Duo T6570 + ATi Mobility Radeon 4330, 4GB RAM)
+
+### iPad Pro 2020 11' (A12Z, 6GB RAM)
+
+### Realme GT Neo 2 (Snapdragon 870, 8GB RAM) (External Device, may lack data)
+### Desktop PC (i5 12600K + RTX 3060 Ti, 16GB RAM)(External Device, may lack data)
 
 ## TEST SUITE LOG
 
