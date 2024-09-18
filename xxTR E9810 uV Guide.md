@@ -80,7 +80,7 @@ If you’re here, I assume you’re fairly smart and that you already have a cer
 **This one requires an increased amount of brain power, for you will need to wield a certain skill, which is called “APPROXIMATION”**. The better your skill in that regard, the more time you can save. Essentially, this Strategy relies on finding one or more “Baseline Frequencies” and testing them, in order to obtain the maximum possible undervolt specifically for them. Then, according to the undervolt obtained, you will scale the voltage required for the neighboring frequencies.
 Baseline Frequencies for CPU BIG:
 
-2704MHz (ONLY INCLUDE THIS IF YOU PLAN ON USING HOTPLUGGING. Useful to approximate the voltage for the frequencies that go from 2652MHz to 2886MHz.)
+2704MHz (ONLY INCLUDE THIS IF YOU PLAN ON USING HOTPLUGGING. Useful to approximate the voltage for the frequencies that go from 2496MHz to 2652MHz. 2860MHz and 2886MHz states are extremely inefficient and will barely undervolt if at all.)
 
 1794MHz (This is the Holy Grail of this CPU. It’s the Stock Base Frequency. It will be useful to approximate the voltage for the frequencies that go from 1261MHz to 2314MHz.)
 
