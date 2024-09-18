@@ -9,6 +9,7 @@
 ### Data update 1: 24/01/2023
 ### Data Update 2: 04/08/2023
 ### Github Upload on: 18/11/2023  
+### Database outdated as of late 2023. Most figures listed here have likely been exceeded.
 
 ## NOTE: These benchmarks are performed with high levels of attention to prevent overheating or background apps interference so they are to be taken as BASELINES for comparisons.
 
