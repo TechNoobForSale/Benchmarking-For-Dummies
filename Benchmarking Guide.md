@@ -77,7 +77,7 @@ Probably, it did. And that's pretty neat. But you see, Benchmarking Phones is wa
     **Alright this is if you're a bit dense. Plastic is a big no no for heat transfer. Heat is trapped, phone overheats. No matter what Cooling System they sponsor for the device. It's the Root of All 
     Evil. Heat can't escape fast enough. Physics bro.**
  
-    Most Modern Mobile Devices have a throttling threshold set at 95°C. Sounds quite high, right? Yeah, it is, but it's a necessary evil. It's regualarly met anyway. These phones would need to run at
+    Most Modern Mobile Devices have a throttling threshold set at 95°C. Sounds quite high, right? Yeah, it is, but it's a necessary evil. It's regularly met anyway. These phones would need to run at
     130°C in order to not throttle, which is completely unreasonable.
  
     **Colder IS better** when it comes down to benchmarking, but our Lithium batteries dislike it if it drops too low, so be careful. Anything below 10°C on battery requires careful planning and a lot
