@@ -82,8 +82,8 @@ Probably, it did. And that's pretty neat. But you see, Benchmarking Phones is wa
  
     **Colder IS better** when it comes down to benchmarking, but our Lithium batteries dislike it if it drops too low, so be careful. Anything below 10°C on battery requires careful planning and a lot
     of attention. Battery Voltage drops with temperature, and if it gets too low, phone will shut down under load due to Vdrop below Critical Threshold (Load on the battery will cause its voltage to
-    drop. If the voltage drops too low, components will starve from voltage, crashing the device. Alternatively, if there's an overwhelmingly high current requirement but the voltage is high enough,
-    the phone will power throttle, and the performance will be crippled, but at least the device won't shutdown).
+    drop. If the voltage drops too low, components will starve from voltage, crashing the device. Alternatively, if there's an overwhelmingly high current requirement and the battery voltage is steady but the internal PMIC struggles,
+    the phone will power throttle, and the performance will be crippled, but at least the device won't shutdown. This issue is particularly prominent if you undervolted your CPU, since the lower voltage might become insufficient to compensate for the PMIC Vdrop.).
 
     ## NUMBER TWO!
     Background Processes
